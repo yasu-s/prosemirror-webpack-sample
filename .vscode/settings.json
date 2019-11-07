@@ -1,0 +1,14 @@
+{
+  "git.ignoreLimitWarning": true,
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false
+  },
+  "editor.tabSize": 2,
+  "editor.renderControlCharacters": true,
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "files.eol": "\n",
+  "javascript.format.semicolons": "insert",
+  "javascript.preferences.quoteStyle": "single",
+  "editor.formatOnSave": false,
+}
