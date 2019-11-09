@@ -8,7 +8,6 @@
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
   "files.eol": "\n",
-  "javascript.format.semicolons": "insert",
-  "javascript.preferences.quoteStyle": "single",
   "editor.formatOnSave": false,
+  "eslint.autoFixOnSave": true,
 }

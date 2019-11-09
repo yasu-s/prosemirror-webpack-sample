@@ -13,6 +13,6 @@ const mySchema = new Schema({
 window.view = new EditorView(document.querySelector('#editor'), {
   state: EditorState.create({
     doc: DOMParser.fromSchema(mySchema).parse(document.querySelector('#content')),
-    plugins: exampleSetup({schema: mySchema}),
+    plugins: exampleSetup({ schema: mySchema }),
   }),
 });
