@@ -19,6 +19,31 @@
 * css-loader - 3.2.x
 * mini-css-extract-plugin - 0.8.x
 
+## 動作確認
+
+### 1. サンプルのダウンロード
+
+```bash
+git clone git@github.com:yasu-s/prosemirror-webpack-sample.git
+```
+
+### 2. パッケージインストール  
+
+```bash
+cd prosemirror-webpack-sample
+yarn
+```
+
+### 3. サンプルの起動  
+
+```bash
+yarn start
+```
+
+## 実行結果
+
+![prosemirror](https://user-images.githubusercontent.com/2668146/68526909-3e785180-0324-11ea-83b3-12825e28bfd8.gif)
+
 ## URL
 
 * https://prosemirror.net/examples/basic/
