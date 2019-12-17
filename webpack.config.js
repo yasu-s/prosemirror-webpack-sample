@@ -5,22 +5,20 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 module.exports = {
   mode: 'development',
   devtool: 'inline-source-map',
-	entry: {
-    'editor': './src/editor.js',
-    'style': './src/style.css',
+  entry: {
+    editor: './src/editor.js',
+    style: './src/style.css',
   },
-	output: {
+  output: {
     path: path.resolve(__dirname, 'dist'),
-		filename: '[name].bundle.js',
-	},
+    filename: '[name].bundle.js',
+  },
   devServer: {
     contentBase: path.join(__dirname, 'dist'),
-    port: 8000
+    port: 8000,
   },
   plugins: [
-    new CopyPlugin([
-      { from: 'src/index.html' },
-    ]),
+    new CopyPlugin([{ from: 'src/index.html' }]),
     new MiniCssExtractPlugin({
       filename: 'style.css',
     }),
@@ -33,10 +31,10 @@ module.exports = {
           MiniCssExtractPlugin.loader,
           {
             loader: 'css-loader',
-            options: { url: true }
-          }
-        ]
-      }
-    ]
-  }
-}
+            options: { url: true },
+          },
+        ],
+      },
+    ],
+  },
+};
